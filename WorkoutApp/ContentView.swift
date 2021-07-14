@@ -1,17 +1,24 @@
 //
 //  ContentView.swift
-//  WorkoutApp
+//  workoutFrame
 //
-//  Created by Nikhil Dange on 7/11/21.
+//  Created by Divy Gobiraj on 7/7/21.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        NavigationView {
+            NavigationLink(destination: WeeksView()){
+                Text("My workouts")
+                    .foregroundColor(Color.blue)
             .padding()
+            }
+            
+            
     }
+}
 }
 
 struct ContentView_Previews: PreviewProvider {

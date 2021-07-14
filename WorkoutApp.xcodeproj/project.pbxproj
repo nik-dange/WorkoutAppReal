@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13FF4ACD269F844700CC7D64 /* WeeksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FF4ACC269F844700CC7D64 /* WeeksView.swift */; };
+		13FF4ACF269F845100CC7D64 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FF4ACE269F845100CC7D64 /* WeekView.swift */; };
 		2CA2E815269C16C800AE5F8A /* WorkoutAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA2E814269C16C800AE5F8A /* WorkoutAppApp.swift */; };
 		2CA2E817269C16C800AE5F8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA2E816269C16C800AE5F8A /* ContentView.swift */; };
 		2CA2E819269C16C900AE5F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA2E818269C16C900AE5F8A /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13FF4ACC269F844700CC7D64 /* WeeksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeksView.swift; sourceTree = "<group>"; };
+		13FF4ACE269F845100CC7D64 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		2CA2E811269C16C800AE5F8A /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA2E814269C16C800AE5F8A /* WorkoutAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAppApp.swift; sourceTree = "<group>"; };
 		2CA2E816269C16C800AE5F8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				2CA2E814269C16C800AE5F8A /* WorkoutAppApp.swift */,
+				13FF4ACC269F844700CC7D64 /* WeeksView.swift */,
+				13FF4ACE269F845100CC7D64 /* WeekView.swift */,
 				2CA2E816269C16C800AE5F8A /* ContentView.swift */,
 				2CA2E818269C16C900AE5F8A /* Assets.xcassets */,
 				2CA2E81D269C16C900AE5F8A /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13FF4ACF269F845100CC7D64 /* WeekView.swift in Sources */,
 				2CA2E817269C16C800AE5F8A /* ContentView.swift in Sources */,
 				2CA2E815269C16C800AE5F8A /* WorkoutAppApp.swift in Sources */,
+				13FF4ACD269F844700CC7D64 /* WeeksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
