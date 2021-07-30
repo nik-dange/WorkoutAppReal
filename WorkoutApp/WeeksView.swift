@@ -19,7 +19,6 @@ struct WeeksView: View {
                     ]
     @State private var counter = 2
     var body: some View {
-        
             VStack {
                 List(listItems) { listItem in
                     NavigationLink(destination: WeekView()) {

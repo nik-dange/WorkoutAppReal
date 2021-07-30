@@ -34,7 +34,7 @@ struct WeekView: View {
         
             VStack {
                 List(listDays) { listItem in
-                    NavigationLink(destination: DetailView(existingItem: listItem)) {
+                    NavigationLink(destination: WorkoutsView()) {
                         Text(listItem.name)
                             .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                 }
